@@ -1,0 +1,23 @@
+function travelling() {
+  if (theme.fcircle_random1 != 'undefined'){
+    fetch(theme.fcircle_random).then((e=>e.json())).then((e=>{
+        var t = e.link
+          , o = "theme.abc：「" + e.name + "」";
+        document.styleSheets[0].addRule(":root", "--heo-snackbar-time:8000ms!important"),
+        Snackbar.show({
+            text: o,
+            duration: 8e3,
+            pos: "top-center",
+            actionText: "前往",
+            onActionClick: function(e) {
+                $(e).css("opacity", 0),
+                window.open(t, "_blank")
+            }
+        })
+      }
+      ))
+    }
+  else{
+    acy.snackbarShow("博客没有配置友圈哦");
+  }
+}

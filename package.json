@@ -1,0 +1,28 @@
+{
+  "name": "hexo-ajs",
+  "version": "1.0.0",
+  "description": "为了主题作者更好的让用户自定义js内容",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hexo ajs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusYYDS/hexo-ajs.git"
+  },
+  "keywords": [
+    "ajs",
+    "acrylic",
+    "theme",
+    "js"
+  ],
+  "author": "MarcusYYDS",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MarcusYYDS/hexo-ajs/issues"
+  },
+  "homepage": "https://github.com/MarcusYYDS/hexo-ajs#readme"
+}

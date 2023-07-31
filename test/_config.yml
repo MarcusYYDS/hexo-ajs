@@ -1,0 +1,4 @@
+ajs:
+  input_path: "themes/Acrylic/source/js"
+  output_path: "source/js"
+  config_path: "themes/Acrylic/_config.yml"
